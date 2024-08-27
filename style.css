@@ -1,0 +1,93 @@
+* {
+    background:greenyellow;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+.logoesfera {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color:white;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color:white; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background:none;
+    background-image:url(/Projeto/imagens/namek.png);
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 24px;
+    color: white;
+    margin-left: 910px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display:flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: yellow;
+    border: 1px solid red;
+    border-radius: 24px;
+    color:orangered;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background: yellow;
+    border: 1px solid red;
+    border-radius: 24px;
+    color:green;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background: yellow;
+    border: 1px solid red;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 1000px;
+    margin-top: 400px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color:white;
+    margin-left: 130px;
+    
+}
